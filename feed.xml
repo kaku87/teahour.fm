@@ -11,9 +11,9 @@
     <id>http://teahour.fm</id>
     <link href="http://teahour.fm/"/>
     <link href="http://teahour.fm/feed.xml" rel="self"/>
-    <updated>2013-04-22T08:50:00Z</updated>
-    <lastBuildDate>2013-04-22T08:50:00Z</lastBuildDate>
-    <pubDate>2013-04-22T08:50:00Z</pubDate>
+    <updated>Mon, 27 May 2013 02:38:00 -0000</updated>
+    <lastBuildDate>Mon, 27 May 2013 02:38:00 -0000</lastBuildDate>
+    <pubDate>Mon, 27 May 2013 02:38:00 -0000</pubDate>
     <description>Teahour.fm 由 Terry Tai，Dingding Ye, Daniel Lv 和 Kevin Wang 主持，会专注程序员感兴趣的话题，包括 Web 设计和开发，移动应用设计和开发，创业以及一切 Geek 的话题。</description>
     <author>
       <name>Teahour.fm</name>
@@ -26,6 +26,241 @@
     <itunes:category text="Technology"/>
     <itunes:category text="Software How-To"/>
     <itunes:category text="Gadgets"/>
+    <item>
+      <title>#17 跟大牛们一起来聊聊 Crack 和 MRuby</title>
+      <itunes:author>daniel</itunes:author>
+      <itunes:summary type="html">&lt;p&gt;本期由 &lt;a href="http://twitter.com/lgn21st"&gt;Daniel Lv&lt;/a&gt; 主持，邀请了两位来自 &lt;a href="http://ruby-china.org"&gt;RubyChina&lt;/a&gt; 的大牛吕戈，王勇来 Teahour 做客，一起来聊聊 Crack，底层开发，MRuby，虚拟机，以及大牛是怎样练成的。本期分两个部分，本期为第一部分，由主持人和吕戈一起来访谈王勇，下期发布第二部分，由主持人和王勇反过来访谈吕戈。&lt;/p&gt;
+
+&lt;p&gt;吕戈: 独立 Mac App 开发者，曾于淘宝和 ThePlant 工作。长年在 Ruby-Forum 和 Ruby China 潜水，偶尔解答诸如 &amp;quot;Y组合子怎么写最 cool&amp;quot; 之类的问题。喜欢 Sinatra，并与武鑫共同开发了基于 Sinatra 的 &lt;a href="http://yavaeye.com"&gt;鸭眼网&lt;/a&gt;。曾向 Padrino 和 BlueCloth 贡献过一点微不足道的代码，发过一些不为人知的 Rubygems，偶尔在杭州 Ruby Tuesday 担任吐槽角色。&lt;/p&gt;
+</itunes:summary>
+      <itunes:image href="http://teahour.fm/images/logo.png"/>
+      <description type="html">&lt;p&gt;本期由 &lt;a href="http://twitter.com/lgn21st"&gt;Daniel Lv&lt;/a&gt; 主持，邀请了两位来自 &lt;a href="http://ruby-china.org"&gt;RubyChina&lt;/a&gt; 的大牛吕戈，王勇来 Teahour 做客，一起来聊聊 Crack，底层开发，MRuby，虚拟机，以及大牛是怎样练成的。本期分两个部分，本期为第一部分，由主持人和吕戈一起来访谈王勇，下期发布第二部分，由主持人和王勇反过来访谈吕戈。&lt;/p&gt;
+
+&lt;p&gt;吕戈: 独立 Mac App 开发者，曾于淘宝和 ThePlant 工作。长年在 Ruby-Forum 和 Ruby China 潜水，偶尔解答诸如 &amp;quot;Y组合子怎么写最 cool&amp;quot; 之类的问题。喜欢 Sinatra，并与武鑫共同开发了基于 Sinatra 的 &lt;a href="http://yavaeye.com"&gt;鸭眼网&lt;/a&gt;。曾向 Padrino 和 BlueCloth 贡献过一点微不足道的代码，发过一些不为人知的 Rubygems，偶尔在杭州 Ruby Tuesday 担任吐槽角色。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Twitter: &lt;a href="https://twitter.com/night_song"&gt;https://twitter.com/night_song&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Github: &lt;a href="https://github.com/luikore"&gt;https://github.com/luikore&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Blog: &lt;a href="http://luikore.github.io/"&gt;http://luikore.github.io/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;王勇: 8 年 C/C++ 的从业经验，目前是一家 GPS 导航公司的资深技术研究员。是不折不扣的 Ruby 爱好者，MRuby 的 Code Committer。还是蓝光三人组的粉丝。也喜欢研究用 Ruby 捣鼓一些另类的玩意。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Twitter: &lt;a href="https://twitter.com/skandhas_nil"&gt;https://twitter.com/skandhas_nil&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Weibo: &lt;a href="http://weibo.com/u/2338968722"&gt;http://weibo.com/u/2338968722&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Github: &lt;a href="https://github.com/skandhas"&gt;https://github.com/skandhas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;section class="notes"&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://baike.baidu.com/view/1047304.htm"&gt;智能手机操作系统&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://baike.baidu.com/view/802253.htm"&gt;派森&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.ruby-lang.org/"&gt;Ruby Programming Language&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.sleberknight.com/blog/sleberkn/resource/javaversusrubybooks.jpeg"&gt;Java V.S. Rails&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://en.wikipedia.org/wiki/Software_cracking"&gt;Software cracking&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.acdsee.com/"&gt;AcdSee&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://baike.baidu.com/view/1189980.htm"&gt;静态分析&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://baike.baidu.com/view/689086.htm"&gt;动态分析&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://en.wikipedia.org/wiki/SoftICE"&gt;SoftICE&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://teahour.fm/2013/02/19/interview-with-ashchan-on-mobile-development.html"&gt;AshChan&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://baike.baidu.com/view/1351603.htm"&gt;trw2000&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://liutaotao.com/"&gt;刘涛涛&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://bbs.pediy.com/"&gt;看雪安全论坛&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://jjhou.boolan.com/"&gt;侯捷&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://baike.baidu.com/view/2413002.htm"&gt;深入浅出MFC&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://book.douban.com/subject/1110934/"&gt;STL源码剖析&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://book.douban.com/subject/1193565/"&gt;Word排版艺术&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://book.douban.com/subject/1091086/"&gt;深度探索C++对象模型&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://ruby-china.org/topics/4538"&gt;王勇大哥AI作品(1)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://ruby-china.org/topics/4684"&gt;王勇大哥AI作品(2)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://ruby-china.org/topics/4567"&gt;王勇大哥AI作品(3)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://github.com/mruby/mruby"&gt;MRuby&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://github.com/matz"&gt;Matz&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579"&gt;MRuby ISO/IEC 30170:2012&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://github.com/ko1"&gt;Koichi Sasada&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://patshaughnessy.net/ruby-under-a-microscope"&gt;Ruby Under a Microscope&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://rhg.rubyforge.org/"&gt;Ruby Hacking Guide&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://github.com/bovi"&gt;Daniel Bovensiepen&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://blog.mruby.sh/"&gt;mruby.sh&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://shop.oreilly.com/product/0636920015482.do"&gt;Head First C&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://en.wikipedia.org/wiki/Portable_Executable"&gt;Portable Executable Format&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://en.wikipedia.org/wiki/Executable_and_Linkable_Format"&gt;Executable and Linkable Format&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.amazon.com/Advanced-Programming-UNIX-Environment-2nd/dp/0201433079"&gt;Advanced Programming in the UNIX Environment&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.jstorimer.com/products/working-with-unix-processes"&gt;Working With Unix Processes&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.jstorimer.com/products/working-with-tcp-sockets"&gt;Working With TCP Sockets&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.jstorimer.com/products/working-with-ruby-threads"&gt;Working With Ruby Threads&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;
+</description>
+      <link>http://teahour.fm/2013/05/27/let-s-talk-about-crack-and-mruby.html</link>
+      <enclosure url="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_17.m4a" type="audio/x-m4a"/>
+      <guid>http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_17.m4a</guid>
+      <pubDate>Mon, 27 May 2013 02:38:00 -0000</pubDate>
+      <itunes:duration>6684</itunes:duration>
+      <itunes:keywords>crack, mruby</itunes:keywords>
+    </item>
+    <item>
+      <title>#16 采访暴走漫画 CTO 曹力(@ShiningRay) - 谈架构演进</title>
+      <itunes:author>dingding</itunes:author>
+      <itunes:summary type="html">&lt;p&gt;本期由 &lt;a href="http://yedingding.com"&gt;Dingding Ye&lt;/a&gt; 主持，&lt;a href="http://knwang.com"&gt;Kevin Wang&lt;/a&gt; 协作主持，邀请到现&lt;a href="http://baozoumanhua.com/"&gt;暴走漫画&lt;/a&gt; CTO、&lt;a href="http://www.bling0.com/"&gt;博聆网&lt;/a&gt;创始人&lt;a href="http://shiningray.cn/"&gt;曹力(@ShiningRay)&lt;/a&gt;) 来聊聊暴走漫画的网站架构演进和性能优化的经验分享。&lt;/p&gt;
+
+&lt;p&gt;曹力的一些联系方式：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/shiningray"&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</itunes:summary>
+      <itunes:image href="http://teahour.fm/images/logo.png"/>
+      <description type="html">&lt;p&gt;本期由 &lt;a href="http://yedingding.com"&gt;Dingding Ye&lt;/a&gt; 主持，&lt;a href="http://knwang.com"&gt;Kevin Wang&lt;/a&gt; 协作主持，邀请到现&lt;a href="http://baozoumanhua.com/"&gt;暴走漫画&lt;/a&gt; CTO、&lt;a href="http://www.bling0.com/"&gt;博聆网&lt;/a&gt;创始人&lt;a href="http://shiningray.cn/"&gt;曹力(@ShiningRay)&lt;/a&gt;) 来聊聊暴走漫画的网站架构演进和性能优化的经验分享。&lt;/p&gt;
+
+&lt;p&gt;曹力的一些联系方式：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/shiningray"&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://weibo.com/ShiningRay"&gt;Weibo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;section class="notes"&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="https://speakerdeck.com/shiningray/diao-si-cheng-xu-yuan-ru-he-da-zao-ri-pvbai-mo-de-wang-zhan-jia-gou"&gt;屌丝程序员如何打造日PV百万的网站架构&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://yedingding.com/2013/05/14/ruby-event-5-11.html"&gt;杭州 Ruby 开发者沙龙活动总结&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.grandcloud.cn/"&gt;盛大云&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://nginx.org/"&gt;nginx&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.couchbase.com/membase"&gt;Membase&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://redis.io/"&gt;redis&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.couchbase.com/"&gt;Couchbase&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://www.upyun.com/"&gt;又拍云&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://dnspod.cn"&gt;DNSPod&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://newrelic.com/"&gt;New Relic&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://qiushibaike.com"&gt;糗事百科&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.percona.com/"&gt;Percona&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://mariadb.org/"&gt;MariaDB&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://www.youtube.com/playlist?list=PLuVcDOUVjW2ePvFapFSHBZ71ya2fLHZS5"&gt;Scaling Rails Screencasts&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://github.com/collectiveidea/delayed_job"&gt;delayed_job&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://sidekiq.org/"&gt;Sidekiq&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://httpd.apache.org/docs/2.2/programs/ab.html"&gt;ab&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.amazon.com/High-Performance-MySQL-Optimization-Replication/dp/1449314287"&gt;High Performance MySQL&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.erlang.org/"&gt;Erlang&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.josephjaber.com/articles/railsconf-2013-talks"&gt;Railsconf 2013 keynote&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://lessconf.lesseverything.com"&gt;LessConf&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.microconf.com"&gt;MicroConf&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://github.com/hooopo/second_level_cache"&gt;second_level_cache&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://kevindewalt.com/"&gt;Kevin Dewalt's Blog&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;
+</description>
+      <link>http://teahour.fm/2013/05/20/interview-with-shining-ray.html</link>
+      <enclosure url="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_16.m4a" type="audio/x-m4a"/>
+      <guid>http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_16.m4a</guid>
+      <pubDate>Mon, 20 May 2013 02:00:00 -0000</pubDate>
+      <itunes:duration>3623</itunes:duration>
+      <itunes:keywords>high availability, deployment, performance optimization</itunes:keywords>
+    </item>
+    <item>
+      <title>#15 采访36氪的技术总监 - 项新知</title>
+      <itunes:author>terry</itunes:author>
+      <itunes:summary type="html">&lt;p&gt;项新知是国内知名科技媒体&lt;a href="http://www.36kr.com/"&gt;36氪&lt;/a&gt;的技术总监。负责36kr.com的开发维护以及架构工作。这一期我们和他聊聊36氪这个公司以及他们背后的一些故事。&lt;/p&gt;
+
+&lt;section class="notes"&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://techcrunch.com/"&gt;Tech Crunch&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://news.ycombinator.com/"&gt;Hacker News&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://tech2ipo.com/"&gt;tech2ipo&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;
+</itunes:summary>
+      <itunes:image href="http://teahour.fm/images/logo.png"/>
+      <description type="html">&lt;p&gt;项新知是国内知名科技媒体&lt;a href="http://www.36kr.com/"&gt;36氪&lt;/a&gt;的技术总监。负责36kr.com的开发维护以及架构工作。这一期我们和他聊聊36氪这个公司以及他们背后的一些故事。&lt;/p&gt;
+
+&lt;section class="notes"&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://techcrunch.com/"&gt;Tech Crunch&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://news.ycombinator.com/"&gt;Hacker News&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://tech2ipo.com/"&gt;tech2ipo&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://ifanr.com/"&gt;爱范儿&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.36kr.com/"&gt;36氪&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.aliyun.com/"&gt;阿里云&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.grandcloud.cn/"&gt;盛大云&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://open.qq.com/"&gt;腾讯云&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://ruby-china.org/"&gt;RubyChina&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://capistranorb.com/"&gt;Capistrano&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.mongodb.org/"&gt;MongoDB&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://nginx.org/"&gt;Nginx&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://unicorn.bogomips.org/"&gt;Unicorn&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://ruby-china.org/topics/10906"&gt;杭州Ruby开发者沙龙资料&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://itunes.apple.com/cn/app/ai-he-shui/id556249411?mt=8"&gt;爱喝水&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://task.li/"&gt;task.li&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://feedafever.com/"&gt;feedafever&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;
+</description>
+      <link>http://teahour.fm/2013/05/13/interview-with-xinzhi-about-36kr.html</link>
+      <enclosure url="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_15.m4a" type="audio/x-m4a"/>
+      <guid>http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_15.m4a</guid>
+      <pubDate>Mon, 13 May 2013 09:00:00 -0000</pubDate>
+      <itunes:duration>3623</itunes:duration>
+      <itunes:keywords>programming, media</itunes:keywords>
+    </item>
+    <item>
+      <title>#14 Become a Better Programmer with Avdi Grimm</title>
+      <itunes:author>kevin</itunes:author>
+      <itunes:summary type="html">&lt;p&gt;Avdi Grimm 是 Ruby 社区知名的资深程序员，作者和社区领袖。在这期节目中我们请来 Avdi 来聊聊怎样突破“中级天花板”来达到更高的层次。&lt;/p&gt;
+
+&lt;p&gt;About Avdi Grimm:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://about.avdi.org/"&gt;Avdi Grimm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://shiprise.dpdcart.com/"&gt;Avdi's Publications&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;section class="notes"&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://rubyrogues.com/"&gt;Ruby Rogues&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;
+</itunes:summary>
+      <itunes:image href="http://teahour.fm/images/logo.png"/>
+      <description type="html">&lt;p&gt;Avdi Grimm 是 Ruby 社区知名的资深程序员，作者和社区领袖。在这期节目中我们请来 Avdi 来聊聊怎样突破“中级天花板”来达到更高的层次。&lt;/p&gt;
+
+&lt;p&gt;About Avdi Grimm:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://about.avdi.org/"&gt;Avdi Grimm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://shiprise.dpdcart.com/"&gt;Avdi's Publications&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;section class="notes"&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://rubyrogues.com/"&gt;Ruby Rogues&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627"&gt;Growing Object Oriented Software Guided by Tests&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.amazon.com/dp/0321721330"&gt;Practical Object Oriented Design in Ruby&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.amazon.com/Smalltalk-Best-Practice-Patterns-Kent/dp/013476904X"&gt;Smalltalk Best Practice Patterns&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672"&gt;Factoring&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner"&gt;How Developers Stop Learning: Rise of the Expert Beginner&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.youtube.com/watch?v=f5I1iyso29U"&gt;Go ahead and make a mess (Sandi Metz)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://chadfowler.com/blog/2013/04/09/who-i-want-to-hire/"&gt;Who I want to hire (Chad Fowler)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://learn.thoughtbot.com/podcast/44"&gt;I feel the opposite of burn out, interview with Chad Fowler&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.se-radio.net/"&gt;Software Engineering Radio&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.pairprogramwith.me/"&gt;Pair Programming with me&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://coreyhaines.com/"&gt;Corey Haines, Software Journeyman&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://en.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy"&gt;The hitchhiker's guide to the galaxy&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.wideteams.com/"&gt;Wide Teams&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.divshot.com/"&gt;DivShot&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://flexibits.com/fantastical"&gt;FantastiCal&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215"&gt;Domain Driven Design&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://www.destroyallsoftware.com/screencasts"&gt;Destroy All Software&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.rubytapas.com/"&gt;RubyTapas&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;
+</description>
+      <link>http://teahour.fm/2013/05/06/become-a-better-programmer-with-avdi-grimm.html</link>
+      <enclosure url="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_14.m4a" type="audio/x-m4a"/>
+      <guid>http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_14.m4a</guid>
+      <pubDate>Mon, 06 May 2013 04:00:00 -0000</pubDate>
+      <itunes:duration>4479</itunes:duration>
+      <itunes:keywords>programming</itunes:keywords>
+    </item>
     <item>
       <title>#13 采访 Fred Wu 以及开源实践</title>
       <itunes:author>daniel</itunes:author>
@@ -82,7 +317,7 @@
       <link>http://teahour.fm/2013/04/22/interview-with-fred-wu-about-opensource.html</link>
       <enclosure url="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_13.m4a" type="audio/x-m4a"/>
       <guid>http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_13.m4a</guid>
-      <pubDate>2013-04-22T08:50:00Z</pubDate>
+      <pubDate>Mon, 22 Apr 2013 08:50:00 -0000</pubDate>
       <itunes:duration>4360</itunes:duration>
       <itunes:keywords>opensource</itunes:keywords>
     </item>
@@ -117,7 +352,7 @@
       <link>http://teahour.fm/2013/04/15/interview-with-sunshineg-on-marketing.html</link>
       <enclosure url="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_12.m4a" type="audio/x-m4a"/>
       <guid>http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_12.m4a</guid>
-      <pubDate>2013-04-15T04:00:00Z</pubDate>
+      <pubDate>Mon, 15 Apr 2013 04:00:00 -0000</pubDate>
       <itunes:duration>4293</itunes:duration>
       <itunes:keywords>marketing, segmentfault, hackathon</itunes:keywords>
     </item>
@@ -163,7 +398,7 @@
       <link>http://teahour.fm/2013/04/08/interview-with-rei-about-writingsio.html</link>
       <enclosure url="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_11.m4a" type="audio/x-m4a"/>
       <guid>http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_11.m4a</guid>
-      <pubDate>2013-04-08T04:00:00Z</pubDate>
+      <pubDate>Mon, 08 Apr 2013 04:00:00 -0000</pubDate>
       <itunes:duration>5120</itunes:duration>
       <itunes:keywords>writings.io, front mvc, solo project</itunes:keywords>
     </item>
@@ -212,7 +447,7 @@
       <link>http://teahour.fm/2013/04/02/open-source-software-and-gitcafe.html</link>
       <enclosure url="http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_9.m4a" type="audio/x-m4a"/>
       <guid>http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_9.m4a</guid>
-      <pubDate>2013-04-02T09:00:00Z</pubDate>
+      <pubDate>Tue, 02 Apr 2013 09:00:00 -0000</pubDate>
       <itunes:duration>5466</itunes:duration>
       <itunes:keywords>Open Source Software, Github, GitCafe</itunes:keywords>
     </item>
@@ -245,7 +480,7 @@ Hansson, 和我们一起聊聊Rails这个项目，相信你会受益良多。&lt
       <link>http://teahour.fm/2013/04/01/interview-with-dhh-about-rails.html</link>
       <enclosure url="http://screencasts.b0.upaiyun.com/podcasts/teahour_dhh.m4a" type="audio/x-m4a"/>
       <guid>http://screencasts.b0.upaiyun.com/podcasts/teahour_dhh.m4a</guid>
-      <pubDate>2013-04-01T09:00:00Z</pubDate>
+      <pubDate>Mon, 01 Apr 2013 09:00:00 -0000</pubDate>
       <itunes:duration>5466</itunes:duration>
       <itunes:keywords>rails</itunes:keywords>
     </item>
@@ -299,7 +534,7 @@ Hansson, 和我们一起聊聊Rails这个项目，相信你会受益良多。&lt
       <link>http://teahour.fm/2013/03/25/story-of-gitlab.html</link>
       <enclosure url="http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_8.m4a" type="audio/x-m4a"/>
       <guid>http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_8.m4a</guid>
-      <pubDate>2013-03-25T02:00:00Z</pubDate>
+      <pubDate>Mon, 25 Mar 2013 02:00:00 -0000</pubDate>
       <itunes:duration>6010</itunes:duration>
       <itunes:keywords>git, gitlab</itunes:keywords>
     </item>
@@ -343,7 +578,7 @@ Hansson, 和我们一起聊聊Rails这个项目，相信你会受益良多。&lt
       <link>http://teahour.fm/2013/03/16/agile-and-scrum-with-xuyi.html</link>
       <enclosure url="http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_7.m4a" type="audio/x-m4a"/>
       <guid>http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_7.m4a</guid>
-      <pubDate>2013-03-16T03:06:00Z</pubDate>
+      <pubDate>Sat, 16 Mar 2013 03:06:00 -0000</pubDate>
       <itunes:duration>5265</itunes:duration>
       <itunes:keywords>agile, scrum</itunes:keywords>
     </item>
@@ -401,7 +636,7 @@ Hansson, 和我们一起聊聊Rails这个项目，相信你会受益良多。&lt
       <link>http://teahour.fm/2013/03/11/git-github-and-gitlab.html</link>
       <enclosure url="http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_6.m4a" type="audio/x-m4a"/>
       <guid>http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_6.m4a</guid>
-      <pubDate>2013-03-11T02:42:00Z</pubDate>
+      <pubDate>Mon, 11 Mar 2013 02:42:00 -0000</pubDate>
       <itunes:duration>4321</itunes:duration>
       <itunes:keywords>git, github, gitlab</itunes:keywords>
     </item>
@@ -461,7 +696,7 @@ Hansson, 和我们一起聊聊Rails这个项目，相信你会受益良多。&lt
       <link>http://teahour.fm/2013/03/05/hardware-for-developers.html</link>
       <enclosure url="http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_5.m4a" type="audio/x-m4a"/>
       <guid>http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_5.m4a</guid>
-      <pubDate>2013-03-05T10:00:00Z</pubDate>
+      <pubDate>Tue, 05 Mar 2013 10:00:00 -0000</pubDate>
       <itunes:duration>5066</itunes:duration>
       <itunes:keywords>hardware, lifestyle</itunes:keywords>
     </item>
@@ -507,7 +742,7 @@ Hansson, 和我们一起聊聊Rails这个项目，相信你会受益良多。&lt
       <link>http://teahour.fm/2013/02/19/interview-with-ashchan-on-mobile-development.html</link>
       <enclosure url="http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_4.mp3" type="audio/x-m4a"/>
       <guid>http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_4.mp3</guid>
-      <pubDate>2013-02-19T13:00:00Z</pubDate>
+      <pubDate>Tue, 19 Feb 2013 13:00:00 -0000</pubDate>
       <itunes:duration>5548</itunes:duration>
       <itunes:keywords>osx, mobile, iOS, Android, RubyMotion, MacRuby, HTML5</itunes:keywords>
     </item>
@@ -547,7 +782,7 @@ Hansson, 和我们一起聊聊Rails这个项目，相信你会受益良多。&lt
       <link>http://teahour.fm/2013/02/09/personal-growth-by-xdite.html</link>
       <enclosure url="http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_3.mp3" type="audio/x-m4a"/>
       <guid>http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_3.mp3</guid>
-      <pubDate>2013-02-09T12:00:00Z</pubDate>
+      <pubDate>Sat, 09 Feb 2013 12:00:00 -0000</pubDate>
       <itunes:duration>4861</itunes:duration>
       <itunes:keywords>personal growth, team development, project management, rails training</itunes:keywords>
     </item>
@@ -584,7 +819,7 @@ Hansson, 和我们一起聊聊Rails这个项目，相信你会受益良多。&lt
       <link>http://teahour.fm/2013/02/03/learning-ruby-and-rails.html</link>
       <enclosure url="http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_2.mp3" type="audio/x-m4a"/>
       <guid>http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_2.mp3</guid>
-      <pubDate>2013-02-03T14:00:00Z</pubDate>
+      <pubDate>Sun, 03 Feb 2013 14:00:00 -0000</pubDate>
       <itunes:duration>6632</itunes:duration>
       <itunes:keywords>ruby, rails, book, education</itunes:keywords>
     </item>
@@ -626,7 +861,7 @@ Hansson, 和我们一起聊聊Rails这个项目，相信你会受益良多。&lt
       <link>http://teahour.fm/2013/01/19/1st_beginning.html</link>
       <enclosure url="http://screencasts.b0.upaiyun.com/podcasts/nil_podcast_1.m4a" type="audio/x-m4a"/>
       <guid>http://screencasts.b0.upaiyun.com/podcasts/nil_podcast_1.m4a</guid>
-      <pubDate>2013-01-19T15:00:00Z</pubDate>
+      <pubDate>Sat, 19 Jan 2013 15:00:00 -0000</pubDate>
       <itunes:duration>7167</itunes:duration>
       <itunes:keywords>ruby, ruby community, railscasts china, ruby china, javascript mvc</itunes:keywords>
     </item>
